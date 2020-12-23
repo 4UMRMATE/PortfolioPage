@@ -654,8 +654,8 @@
 }
 
 .App #projects #close {
-  position: -webkit-sticky;
-  position: sticky;
+  position: absolute;
+  float: right;
   top: 0;
   right: 25px;
   color: #fff;

@@ -502,7 +502,8 @@ $categoryBoxSize: 328px;
 
     /* The Close Button (x) */
     #close {
-      position: sticky;
+      position: absolute;
+      float: right;
       top: 0;
       right: 25px;
       color: #fff;
