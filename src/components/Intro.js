@@ -71,6 +71,7 @@ export default function Intro() {
                   "scss",
                   "react",
                   "npm",
+                  "gsap",
                 ]}
               />
             </div>
@@ -79,7 +80,7 @@ export default function Intro() {
           <div className="about-page" ref={(el) => (aboutPage = el)}>
             <h1>About</h1>
             <p>This Page was created using following technologies:</p>
-            <Tags tags={["scss", "react", "npm"]} />
+            <Tags tags={["scss", "gsap", "react", "npm"]} />
           </div>
         </div>
         <div className="call-for-action" ref={(el) => (callForAction = el)}>

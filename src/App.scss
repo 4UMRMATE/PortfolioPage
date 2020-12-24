@@ -68,7 +68,6 @@ $categoryBoxSize: 328px;
 
           .line {
             transform: rotate(90deg);
-            width: 0.1rem !important;
           }
 
           .about-me-text {
@@ -294,7 +293,7 @@ $categoryBoxSize: 328px;
           }
 
           .line {
-            width: 0.05vw;
+            width: 0.1rem;
             height: 0;
             background-color: whitesmoke;
           }
@@ -406,8 +405,14 @@ $categoryBoxSize: 328px;
       width: 100vw;
       height: 100vh;
       overflow: scroll;
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
       background-color: rgba(0, 0, 0, 0.4);
       z-index: 3;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    #popup-window::-webkit-scrollbar {
+      display: none;
     }
 
     #popup-content {
