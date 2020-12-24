@@ -7,7 +7,7 @@ export default function Navbar() {
   const [mobileNavOn, setToggle] = useState(null);
 
   const toggleMobileNav = (e) => {
-    if (e.screenX < 768) {
+    if (e.nativeEvent.x < 768) {
       setToggle(!mobileNavOn);
       mobileNavOn
         ? TweenMax.to(navItems, 0.5, {
